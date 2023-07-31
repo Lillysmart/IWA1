@@ -1,2 +1,2 @@
 # -IWA1
-created a tallycount count program using Javascript , html and css
+created a tallycount program using Javascript , html and css.
