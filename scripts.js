@@ -1,6 +1,9 @@
+
+
+
 //global const
 const MAX_NUMBER = 15;
-const MIN_NUMBER = -5;
+const MIN_NUMBER = -10;
 const STEP_AMOUNT = 5;
 
 const number = document.querySelector('[data-key="number"]');
@@ -9,7 +12,7 @@ const add = document.querySelector('[data-key="add"]');
 
 //Say this second
 const subtractHandler = () => {
-  newValue = parseInt(number.value) - STEP_AMOUNT; //changing string to a number
+  const newValue = parseInt(number.value) - STEP_AMOUNT; //changing string to a number
   number.value = newValue;
 
   if (add.disabled === true) {
@@ -21,7 +24,7 @@ const subtractHandler = () => {
   }
 };
 const addHandler = () => {
-  newValue = parseInt(number.value) + STEP_AMOUNT;
+  const newValue = parseInt(number.value) + STEP_AMOUNT;
   number.value = newValue; //first code
 
   if (subtract.disabled === true) {
