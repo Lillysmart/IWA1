@@ -24,8 +24,8 @@ const subtractHandler = () => {
   }
 };
 const addHandler = () => {
-  const newValue = parseInt(number.value) + STEP_AMOUNT;
-  number.value = newValue; //first code
+  const newValue = parseInt(number.value) + STEP_AMOUNT;  
+  number.value = newValue; 
 
   if (subtract.disabled === true) {
     subtract.disabled = false;
