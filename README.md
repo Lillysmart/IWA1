@@ -28,3 +28,9 @@ created a tallycount program using Javascript , html and css.
 |Then the number should increase by 5|
 
 |User story in Gherkin|
+| ------|
+ | Scenario: User cannot increment the number beyond the maximum limit
+| Given the number is at the maximum limit (15)|
+ | When the user clicks the "+" button|
+ | Then the number should remain at the maximum limit|
+ | And the "+" button should be disabled|
