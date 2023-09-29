@@ -18,7 +18,7 @@ created a tallycount program using Javascript , html and css.
 |Then the number should remain at the minimum limit|
 |  And the "-" button should be disabled|
 
-## (-) button: 
+## (+) button: 
 
 |User story in Gherkin|
 | ------|
