@@ -1,5 +1,5 @@
 # IWA1
-created a tallycount program using Javascript , html and css.
+A tallycount program created with Javascript , html and css.
 ## (-) button:
 
 |User story in Gherkin|
